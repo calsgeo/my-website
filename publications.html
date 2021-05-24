@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Camilo Leon-Sanchez</title>
+    <link rel="icon" href="../assets/img/logo3DGeoInformation.png">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/dist/css/navbar-top-fixed.css" rel="stylesheet">
+    <!-- LeafletJS core CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <!-- awesome icons for html   -->
+    <script src="https://kit.fontawesome.com/701d908350.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="row">
+        <h2 class="myname"> Camilo León-Sánchez</h2>
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.tudelft.nl/" target="_blank">
+                <img class="tud" src="../assets/img/tudwhite.png" onmouseover="this.src='../assets/img/tudblue.png'"
+                    onmouseout="this.src='../assets/img/tudwhite.png'" alt="TU Delft" height="25px">
+            </a>
+            <a class="navbar-brand" href="https://3d.bk.tudelft.nl/">
+                <img src="../assets/img/navbar-white.png" alt="3D Geoinformation" height="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse navbar-right " id="navbar">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-sm-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proteges.html">Protégés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="wrap">
+        <div id="main" class="container clear-top">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-sm-12 d-md-none">
+                        <h1>Papers</h1>
+                        <input type="text" class="text-input" id="small-filter" type="search" value=""
+                            placeholder="Search" /><br />
+                        Papers: <a href="#pr2021">2021</a> <a href="#pr2020">2020</a><br />
+                        Theses: <a href="#thmastersthesis">MSc</a> <br />
+                    </div>
+                    <div class="col col-12 col-md-9">
+                        <section id="pr">
+                            <h1 class="d-none d-md-block">Papers</h1>
+                            <section id="pr2021" class="filteredgroup">
+                                <h3>2021<span id="filteredcount"></span></h3>
+                                <span class="pub_auth_">Ruiz Orejuela, L. Lizarazo, I., <u>León-Sánchez, C.</u>, 2021,</span><br>
+                                <span class="pub_title"><b>Nuevo enfoque al problema de la localización óptima para equipamientos de justicia</b>.</span><br>
+                                <span class="pub_book1"><i>Revista internacional de tecnologia, conocimiento y sociedad</i>,</span>
+                                <br>
+                            </section>
+                            <section id="pr2020" class="filteredgroup">
+                                <h3>2020<span id="filteredcount"></span></h3>
+                                <span class="pub_auth_">Montilla, Y. M.<u>León-Sánchez, C.</u>, 2020,</span><br>
+                                <span class="pub_title"><b>3D modelling of a building oriented to indoor navigation
+                                        system for users with different mobility conditions</b>.</span><br>
+                                <span class="pub_book1"><i>ISPRS Ann. Photogramm. Remote Sens. Spatial Inf.
+                                        Sci.</i>,</span>
+                                <span class="pub_book2">VI-4/W2-2020, pp. 103–109</span>
+                                <span class="pub_doi__"><a
+                                        href="https://doi.org/10.5194/isprs-annals-VI-4-W2-2020-103-2020"
+                                        target="_blank"><i class="ai ai-doi"></i></a></span>
+                                <span class="pub_pdf__"><a
+                                        href="https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/VI-4-W2-2020/103/2020/isprs-annals-VI-4-W2-2020-103-2020.pdf"
+                                        target="_blank"><i class="fa fa-file-pdf-o"></i></a></span><br>
+                                <br>
+                            </section>
+                        </section>
+                        <p></p>
+                        <section id="th">
+                            <h1>Theses</h1>
+                            <section id="thmastersthesis" class="filteredgroup">
+                                <h3>MSc<span id="filteredcount"></span></h3>
+                                <span class="pub_auth_"><u>León-Sánchez, C.A.</u>, 2015,</span><br>
+                                <span class="pub_title"><b>Evaluation of digital techniques for coffee crops identification from multispectral imagery</b>.</span><br>
+                                <span class="pub_book1">MSc. Thesis,</span>
+                                <span class="pub_book2">Universidad Distrital Francisco José de Caldas</span>
+                                <span class="pub_pdf__"><a href="../assets/files/LeonSanchez2015.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a></span><br>
+                                <br>
+
+                                <span class="pub_auth_"><u>León-Sánchez, C.A.</u>, 2013,</span><br>
+                                <span class="pub_title"><b>Estimation of Electric Energy Demand using 3D City Models</b>.</span><br>
+                                <span class="pub_book1">MSc. Thesis,</span>
+                                <span class="pub_book2">Technische Univerität Berlin.</span>
+                                <span class="pub_pdf__"><a href="../assets/files/LeonSanchez2013.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i></a></span><br>
+                                <br>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="col col-12 col-md-3 d-none d-md-block">
+                        <div style="position: fixed;">
+                            <h2>Search</h2>
+                            <input type="text" class="text-input" id="filter" type="search" value="" autofocus />
+                            <h2>Go to</h2>
+                            <nav id="sidebar" class="navbar navbar-default papers-sidebar">
+                                <ul class="nav nav-pills flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#pr">Papers</a>
+                                        <ul class="nav nav-pills flex-column">
+                                            <li class="nav-item"><a class="nav-link ml-3 py-0" href="#pr2021">2021</a>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link ml-3 py-0" href="#pr2020">2020</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#th">Theses</a>
+                                        <ul class="nav nav-pills flex-column">
+                                            <!-- <li class="nav-item"><a class="nav-link ml-3 py-0"
+                                                    href="#thphdthesis">PhD</a></li> -->
+                                            <li class="nav-item"><a class="nav-link ml-3 py-0"
+                                                    href="#thmastersthesis">MSc</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <p class="text-center muted credit"><small>
+
+                    The website's source code is <a href="https://github.com/calsgeo/my-website">here</a>.<br />
+                    Except where otherwise noted, content on this site is released into the <a
+                        href="http://creativecommons.org/publicdomain/zero/1.0/">public domain (CC0)</a>. Any
+                    attribution is appreciated but it is not required.
+
+                </small></p>
+        </div>
+    </footer>
+    <script src="/ken/js/jquery.min.js"></script>
+    <script src="/ken/js/bootstrap.min.js"></script>
+    <script src="/ken/js/bigfoot.min.js"></script>
+    <script src="/ken/js/jquery.mark.min.js"></script>
+    <script type="text/javascript">
+        $.bigfoot();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            //  $("#toTop").hide();
+
+            // // fade in & out
+            // $(window).scroll(function () {
+            //    if ($(this).scrollTop() > 300) {
+            //      $('#toTop').fadeIn();
+            //    } else {
+            //      $('#toTop').fadeOut();
+            //    }
+            // });
+
+            $('a[href^=#pr],a[href^=#th],a[href^=#other],a[href^=#st]').each(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname &&
+                    this.hash.replace(/#/, '')) {
+                    var $targetId = $(this.hash),
+                        $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
+                    var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor :
+                        false;
+                    if ($target) {
+                        var targetOffset = $target.offset().top;
+                        $(this).click(function () {
+                            $('html, body').animate({
+                                scrollTop: targetOffset
+                            }, 300);
+                            return false;
+                        });
+                    }
+                }
+            });
+
+            $('body').scrollspy({
+                target: '#sidebar',
+                offset: 0
+            })
+            $('.papers-sidebar').children('.nav').children('.nav-item').children('.nav').hide();
+            $('.papers-sidebar').children('.nav').children('.nav-item').children('.active').parent().children(
+                '.nav').show();
+
+            $("#small-filter").keyup(function () {
+                // Retrieve the input field text and reset the count to zero
+                var filter = $(this).val();
+                $("#filter").val(filter);
+                $(".filteredgroup").each(function () {
+                    var count = 0;
+                    $(this).find(".filteredelement").each(function () {
+                        $(this).unmark();
+                        window.filterhits = 0;
+                        $(this).mark(filter, {
+                            "separateWordSearch": false,
+                            "done": function (counter) {
+                                if (counter > 0) {
+                                    window.filterhits = counter;
+                                }
+                            }
+                        });
+                        if (window.filterhits == 0 && filter.length > 0) {
+                            $(this).fadeOut();
+                        } else {
+                            $(this).fadeIn();
+                            count++;
+                        }
+                    });
+                    if (count > 0) {
+                        // $(this).find("#filteredcount").text(" (" + count + ")")
+                        $(this).fadeIn();
+                    } else {
+                        $(this).fadeOut();
+                    }
+                });
+            });
+
+            $("#filter").keyup(function () {
+                // Retrieve the input field text and reset the count to zero
+                var filter = $(this).val();
+                $("#small-filter").val(filter);
+                $(".filteredgroup").each(function () {
+                    var count = 0;
+                    $(this).find(".filteredelement").each(function () {
+                        $(this).unmark();
+                        window.filterhits = 0;
+                        $(this).mark(filter, {
+                            "separateWordSearch": false,
+                            "done": function (counter) {
+                                if (counter > 0) {
+                                    window.filterhits = counter;
+                                }
+                            }
+                        });
+                        if (window.filterhits == 0 && filter.length > 0) {
+                            $(this).fadeOut();
+                        } else {
+                            $(this).fadeIn();
+                            count++;
+                        }
+                    });
+                    if (count > 0) {
+                        // $(this).find("#filteredcount").text(" (" + count + ")")
+                        $(this).fadeIn();
+                    } else {
+                        $(this).fadeOut();
+                    }
+                });
+            });
+
+            $(window).on('activate.bs.scrollspy', function () {
+                $('.papers-sidebar').children('.nav').children('.nav-item').children('.nav').hide();
+                $('.papers-sidebar').children('.nav').children('.nav-item').children('.active').parent()
+                    .children('.nav').show();
+            });
+
+        });
+    </script>
+
+
+</body>
+
+
+</html>

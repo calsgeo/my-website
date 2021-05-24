@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>Camilo Leon-Sanchez</title>
+  <link rel="icon" href="../assets/img/logo3DGeoInformation.png">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/dist/css/navbar-top-fixed.css" rel="stylesheet">
+  <!-- LeafletJS core CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <!-- awesome icons for html   -->
+    <script src="https://kit.fontawesome.com/701d908350.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" role="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.tudelft.nl/" target="_blank">
+        <img class="tud" src="../assets/img/tudwhite.png" onmouseover="this.src='../assets/img/tudblue.png'"
+          onmouseout="this.src='../assets/img/tudwhite.png'" alt="TU Delft" height="25px">
+      </a>
+      <a class="navbar-brand" href="https://3d.bk.tudelft.nl/">
+        <img src="../assets/img/navbar-white.png" alt="3D Geoinformation" height="30px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse navbar-right " id="navbar">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0 ">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proteges.html">Protégés</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item dropdown">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="header">
+    <div class="row">
+      <h2 class="myname"> Camilo León-Sánchez</h2>
+      <h3 class="function"> PhD Candidate</h3>
+    </div>
+    <div class="col-12">
+      <p></p>
+    </div>
+  </div>
+
+  <div id="home" class="container">
+    <div class="row">
+      <div class="clearfix"></div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img src="../assets/img/CamiloLeonSanchez.png" alt=""
+              class="border border-secondary border-2 rounded-circle" height="300px">
+            <p></p>
+            <a href="mailto:c.a.leonsanchez@tudelft.nl"><img src="../assets/img/email_icon.png" alt="email" height="45px"></a>
+            <a href="https://github.com/calsgeo"><img src="../assets/img/github_icon.png" alt="github" height="45px"></a>
+            <a href="https://twitter.com/camiloaleonsan"><img src="../assets/img/twitter_icon.png" alt="twitter" height="45px"></a>
+            <a href="https://telegram.me/@cleonsanchez"><img src="../assets/img/Telegram_icon.png" alt="telegram" height="45px"></a>
+            <a href="tel:+31616379790"><img src="../assets/img/Telephone_icon.png" alt="phone" height="45px"></a>
+            <a href="https://orcid.org/0000-0002-9696-7229"><img src="../assets/img/orcid_icon.png" alt="orcid" height="45px"></a>
+          </div>
+          <div class="col-lg-4">
+            <h2>Welcome</h2>
+            <p>I am a PhD Candidate at the TUDelft, my research is focused in the use of 3D City Models in Energy Applications involving the simulations of energy consumption, evaluation of existing data storage methods and the use of Data Science for better calculation processes</p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Location</h2>
+            <div class="col-xs-8" style="height: 147px;">
+              <i class="fas fa-map-marker-alt"></i> Room BG.West.550<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i>Building 8 (BK City)<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i>Delft University of Technology<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i>Julianalaan 134<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i>Delft 2628BL<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i>The Netherlands<br>
+              <i class="fas fa-map-marker-alt fa-fw fade"></i> <a
+                href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How
+                to get here</a>
+              <br>
+            </div>
+            <div id="mapid" style="width: 300px; height: 400px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-12">
+        <p></p>
+        <p></p>
+      </div>
+
+      <div id="aboutMe" class="col-12">
+        <h2>My Background</h2>
+        <ul>
+          <li>Since 2020/10: <b>PhD Candidate</b> @ Delft University of Technology, 3D Geoinformation group</li>
+          <li>2017/08 - 2020/07: <b>Auxiliar Professor</b> @ <a target="_blank" href="https://unal.edu.co/en.html">Universidad Nacional de Colombia (UNAL)</a>. Bogotá, Colombia.</li>
+          <li>2019 - 2020: <b>GIS Specialist</b> @ <a target="_blank" href="https://www.ideca.gov.co/">Spatial Data Infraestructure of Bogota (IDECA)</a>. Bogotá, Colombia.</li>
+          <li>2013 - 2017: <b>GIS Specialist</b> @ <a target="_blank" href="https://federaciondecafeteros.org/wp/?lang=en">Colombia coffee growers federation</a>. Bogotá, Colombia.</li>
+          <li>2016/02 - 2016/06 <b>University Lecturer</b>@  <a target="_blank" href="https://www.usergioarboleda.edu.co/">Universidad Sergio Arboleda</a>, Bogotá, Colombia.</li>
+          <li>2015 - 2016: <b>University Lecturer</b> @ <a target="_blank" href="https://www.umng.edu.co/inicio">Universidad Militar Nueva Granada (UMilitar)</a>, @ <a target="_blank" href="https://www.udca.edu.co/">Universidad de Ciencias Aplicadas y Ambientales (UDCA)</a>. Bogotá, Colombia.</li>
+          <li>2006/06 - 2015/06: <a target="_blank" href="https://www.udistrital.edu.co/inicio">Universidad Distrital Francisco José de Caldas</a>, MSc degree in Information Science and Communication. Bogotá, Colombia</li>
+          <li>2010/10 - 2013/06: <a target="_blank" href="https://www.igg.tu-berlin.de/menue/education/parameter/en/">Technische Universität Berlin (TUBerlin)</a> MSc degree in Geodesy and Geoinformation Science</li>
+          <li>2000-2001: <a target="_blank" href="https://www.udistrital.edu.co/inicio">Universidad Distrital Francisco José de Caldas</a>, BSc in Cadastre Engineering and Geodesy</li>
+        </ul>
+      </div>
+
+      <div id="teaching" class="col-12">
+        <h2>Teaching</h2>
+          Before TUDelft all lectures were taugh in Spanish<br>
+          <p></p>
+          <ul>
+              <li><b>@ UNAL.</b> MSc Geomatics
+                  <ul>
+                      <li>GIS Programming (2020, 2019, 2018)</li>
+                      <li>Geoprocessing (2020)</li>
+                      <li>Spatial Databases (2020, 2019, 2018)</li>
+                      <li>Research Seminar II (2019)</li>
+                      <li>Remote Sensing (2019)</li>
+                      <li>General Geomatics (2019)</li>
+                  </ul>
+              </li>
+              <li><b>@ UNAL.</b> BSc in Agronomy
+                  <ul>
+                      <li>Basic Geomatics (2018, 2017)</li>
+                  </ul>
+              </li>
+              <li><b>@ UMilitar.</b> Posgraduate degree in Geomatics
+                  <ul>
+                      <li>Applied Geomatics Project (2016, 2015)</li>
+                      <li>Web Cartography (2016)</li>
+                  </ul>
+              </li>
+              <li><b>@ UDCA.</b> BSc in Geographic and Environmental Engineering
+                  <ul>
+                      <li>Geodesy (2016, 2015, 2014)</li>
+                      <li>Spatial Analysis (2016)</li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+
+      </div>
+
+    </div>
+  </div>
+  
+  
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <hr>
+		<p class="text-center muted credit"><small>
+      
+      The website's source code is <a href="https://github.com/calsgeo/my-website">here</a>.<br />
+      Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> <br />
+			Except where otherwise noted, content on this site is released into the <a href="http://creativecommons.org/publicdomain/zero/1.0/">public domain (CC0)</a>. Any attribution is appreciated but it is not required. 
+			
+		</small></p>
+	</div>
+</footer>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var mymap = L.map('mapid').setView([52.005555605837536, 4.370783675191193], 16);
+
+
+
+    L.tileLayer(
+      'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+          'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1
+      }).addTo(mymap);
+
+    L.marker([52.005555605837536, 4.370783675191193]).addTo(mymap)
+      .bindPopup("<b>Building 8 (BK City)</b> <br> Room BG.West.550");
+
+    var popup = L.popup();
+
+    function onMapClick(e) {
+      popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(mymap);
+    }
+
+    mymap.on('click', onMapClick);
+  </script>
+  
+</body>
+
+</html>
