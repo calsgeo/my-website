@@ -4,46 +4,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Camilo Leon-Sanchez - PhD Candidate at TUDelft focusing on 3D City Models for Energy Applications.">
-  <meta name="author" content="Camilo Leon-Sanchez">
-  <title>Camilo Leon-Sanchez</title>
+  <meta name="description" content="Camilo León-Sánchez is a postdoctoral researcher at TU Delft working on semantic 3D city models, urban energy modelling, and open geospatial data.">
+  <meta name="author" content="Camilo León-Sánchez">
+  <title>Camilo León-Sánchez | Home</title>
   <link rel="icon" href="assets/img/logo3DGeoInformation.png">
   <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/dist/css/navbar-top-fixed.css">
+  <link rel="stylesheet" href="assets/dist/css/site.css">
   <script src="https://kit.fontawesome.com/701d908350.js" crossorigin="anonymous"></script>
-
-  <!-- LeafletJS core CSS -->
-  <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.1.3/dist/maplibre-gl.css' />
-  <script src='https://unpkg.com/maplibre-gl@4.1.3/dist/maplibre-gl.js'></script>
-    <style>
-      #map { 
-        height: 400px;
-        width: 90%;
-        margin: 20px auto;
-      }
-  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark" role="navigation">
+<body class="page-home">
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top site-navbar" role="navigation">
     <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.tudelft.nl/" target="_blank">
-        <img class="tud" src="assets/img/tudwhite.png" onmouseover="this.src='assets/img/tudblue.png'"
-          onmouseout="this.src='assets/img/tudwhite.png'" alt="TU Delft" height="25px">
-      </a>
-      <a class="navbar-brand" href="https://3d.bk.tudelft.nl/">
-        <img src="assets/img/navbar-white.png" alt="3D Geoinformation" height="30px">
-      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
         aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="navbar-collapse collapse navbar-right " id="navbar">
-
-        <ul class="navbar-nav ms-auto mb-2 mb-sm-0 ">
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="index.html" aria-current="page">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="publications.html">Publications</a>
@@ -51,207 +33,147 @@
           <li class="nav-item">
             <a class="nav-link" href="proteges.html">Protégés</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item dropdown">
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div id="header">
-    <div class="row">
-      <h2 class="myname"> Camilo León-Sánchez</h2>
-      <h3 class="function"> PhD Candidate</h3>
-    </div>
-    <div class="col-12">
-      <p></p>
-    </div>
-  </div>
-
-  <div id="home" class="container">
-    <div class="row">
-      <div class="clearfix"></div>
-      <div class="col-12">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <img src="assets/img/CamiloLeonSanchez.png" alt=""
-              class="border border-secondary border-2 rounded-circle" height="300px">
-            <p></p>
-            <a href="mailto:c.a.leonsanchez@tudelft.nl"><img src="assets/img/email_icon.png" alt="email" height="45px"></a>
-            <a href="https://github.com/calsgeo"><img src="assets/img/github_icon.png" alt="github" height="45px"></a>
-            <a href="https://twitter.com/camiloaleonsan"><img src="assets/img/twitter_icon.png" alt="twitter" height="45px"></a>
-            <a href="https://telegram.me/@cleonsanchez"><img src="assets/img/Telegram_icon.png" alt="telegram" height="45px"></a>
-            <a href="tel:+31616379790"><img src="assets/img/Telephone_icon.png" alt="phone" height="45px"></a>
-            <a href="https://orcid.org/0000-0002-9696-7229"><img src="assets/img/orcid_icon.png" alt="orcid" height="45px"></a>
+  <header class="site-header">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-12 col-lg-8">
+          <h1 class="myname">Camilo León-Sánchez</h1>
+          <p class="site-kicker">Spatial Data Infrastructures | Urban data science</p>
+          <p class="function">Post-doctoral researcher at Wageningen University & Research</p>
+          <p class="hero-summary">
+            My research covers various aspects of Geo-Information Sciences. Currely I am focused on the integration of behavioural and human-centred data into Spatial Data Infrastructures (SDIs); this envolves topics such as open data, data sovereignty, semantics and open (geospatial) standards. Previously I have researched on the use of open geospatial data and Semantic 3D City Models (S3DCM) to enhance energy applications.
+          </p>
+          <ul class="tag-list" aria-label="Research themes">
+            <li>Spatial Data Infrastructures</li>
+            <li>Urban data science</li>
+            <li>Urban Building Energy Modelling</li>
+            <li>Semantic 3D city models</li>
+          </ul>
+          <div class="contact-links" aria-label="Contact and profiles">
+            <a class="contact-link" href="mailto:camiloleon@icloud.com">
+              <img src="assets/img/email_icon.png" alt=""> Email
+            </a>
+            <a class="contact-link" href="https://github.com/calsgeo" target="_blank" rel="noopener">
+              <img src="assets/img/github_icon.png" alt=""> GitHub
+            </a>
+            <a class="contact-link" href="https://orcid.org/0000-0002-9696-7229" target="_blank" rel="noopener">
+              <img src="assets/img/orcid_icon.png" alt=""> ORCID
+            </a>
+            <a class="contact-link" href="https://www.wur.nl/en/chair-groups/geo-information-science-and-remote-sensing" target="_blank" rel="noopener">
+              <i class="fas fa-university" aria-hidden="true"></i> Geo-Information Science and Remote Sensing
+            </a>
           </div>
-          <div class="col-lg-4">
-            <h2>Welcome</h2>
-            <p>I am a PhD Candidate at the TUDelft, my research is focused in the use of 3D City Models for Energy Applications. This involves simulations such as the solar potential of building's surfaces or heating and cooling demand of buildings in multiple scale of analyses (from the granularity of buildings to a national level). I also evaluate current data models to store this data and the use of artificial intelligence techniques to cope with data gaps.</p>
-          </div>
-          <div class="col-lg-4">
-            <h2>Location</h2>
-            <div class="col-xs-8" style="height: 147px;">
-              <i class="fas fa-map-marker-alt"></i> Room BG.West.550<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i>Building 8 (BK City)<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i>Delft University of Technology<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i>Julianalaan 134<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i>Delft 2628BL<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i>The Netherlands<br>
-              <i class="fas fa-map-marker-alt fa-fw fade"></i> <a
-                href="https://www.tudelft.nl/en/architecture-and-the-built-environment/about-the-faculty/contact-and-map/">How
-                to get here</a>
-              <br>
-            </div>
-            <div id="map"></div>
-          </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center">
+          <img src="assets/img/CamiloLeonSanchez.png" alt="Portrait of Camilo León-Sánchez" class="profile-photo">
         </div>
       </div>
     </div>
-    <div class="row">
+  </header>
 
-      <div class="col-12">
-        <p></p>
-        <p></p>
+  <main>
+    <section class="content-section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-lg-7">
+            <h2 class="section-heading">Research interests</h2>
+            <p>
+              <ul>Spatial Data Infrastructures</ul>
+              <ul>Semantic 3D City Models</ul>
+              <ul>Urban Building Energy Modelling</ul>
+              <ul>Urban Data Science</ul>
+              <ul>Data Modelling (Design and Implementation)</ul>
+            </p>
+            <p>
+              I am interested in supervising or co-supervising MSc and doctoral research on related topics, and in
+              contributing to collaborative research projects aligned research interests.
+            </p>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="info-panel">
+              <h2>Location</h2>
+              <div class="location-lines">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                Droevendaalsesteeg 3<br>
+                Building 101, 6708 PB Wageningen. The Netherlands<br>
+              </div>
+              <div class="viewer-frame">
+                <iframe src="https://3dbag.nl/en/viewer?rdx=174192.08546217822&amp;rdy=444375.4903215624&amp;ox=12.077424915245501&amp;oy=150.23798658428123&amp;oz=85.8214516518783" title="3D BAG viewer of the area" loading="lazy" allowfullscreen referrerpolicy="origin"></iframe>
+              </div>
+              <p class="viewer-caption">
+                <a href="https://3dbag.nl/en/viewer?rdx=174192.08546217822&amp;rdy=444375.4903215624&amp;ox=12.077424915245501&amp;oy=150.23798658428123&amp;oz=85.8214516518783" target="_blank" rel="noopener">Open the full 3D BAG viewer</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <div id="aboutMe" class="col-12">
-        <h2>My Background</h2>
-        <ul>
-          <li>Since 2020/10: <b>PhD Candidate</b> @ Delft University of Technology, 3D Geoinformation group</li>
-          <li>2017/08 - 2020/07: <b>Auxiliar Professor</b> @ <a target="_blank" href="https://unal.edu.co/en.html">Universidad Nacional de Colombia (UNAL)</a>. Bogotá, Colombia.</li>
-          <li>2019 - 2020: <b>GIS Specialist</b> @ <a target="_blank" href="https://www.ideca.gov.co/">Spatial Data Infraestructure of Bogota (IDECA)</a>. Bogotá, Colombia.</li>
-          <li>2013 - 2017: <b>GIS Specialist</b> @ <a target="_blank" href="https://federaciondecafeteros.org/wp/?lang=en">Colombia coffee growers federation</a>. Bogotá, Colombia.</li>
-          <li>2016/02 - 2016/06 <b>University Lecturer</b>@  <a target="_blank" href="https://www.usergioarboleda.edu.co/">Universidad Sergio Arboleda</a>, Bogotá, Colombia.</li>
-          <li>2015 - 2016: <b>University Lecturer</b> @ <a target="_blank" href="https://www.umng.edu.co/inicio">Universidad Militar Nueva Granada (UMilitar)</a>, @ <a target="_blank" href="https://www.udca.edu.co/">Universidad de Ciencias Aplicadas y Ambientales (UDCA)</a>. Bogotá, Colombia.</li>
-          <li>2006/06 - 2015/06: <a target="_blank" href="https://www.udistrital.edu.co/inicio">Universidad Distrital Francisco José de Caldas</a>, MSc degree in Information Science and Communication. Bogotá, Colombia</li>
-          <li>2010/10 - 2013/06: <a target="_blank" href="https://www.igg.tu-berlin.de/menue/education/parameter/en/">Technische Universität Berlin (TUBerlin)</a> MSc degree in Geodesy and Geoinformation Science</li>
-          <li>2000-2001: <a target="_blank" href="https://www.udistrital.edu.co/inicio">Universidad Distrital Francisco José de Caldas</a>, BSc in Cadastre Engineering and Geodesy</li>
+    <section class="content-section">
+      <div class="container">
+        <h2 class="section-heading">Background</h2>
+        <ul class="timeline-list">
+          <li>Since 2026/07: <b>Post-doctoral researcher</b> at <a target="_blank" rel="noopener" href="https://www.wur.nl/en/chair-groups/geo-information-science-and-remote-sensing">Wageningen University & Research</a>. Wageningen, Netherlands.</li>
+          <li>2025/04 - 2026/06: <b>Post-doctoral researcher</b> at <a target="_blank" rel="noopener" href="https://3d.bk.tudelft.nl">Delft University of Technology, 3D Geoinformation group</a>. Delft, Netherlands.</li>
+          <li>2020/10 - 2025/03: <b>PhD Candidate</b> at <a target="_blank" rel="noopener" href="https://3d.bk.tudelft.nl">Delft University of Technology, 3D Geoinformation group</a>. Delft, Netherlands.</li>
+          <li>2017 - 2020: <b>Assistant Professor (Lecturer)</b> at <a target="_blank" rel="noopener" href="https://unal.edu.co/en.html">Universidad Nacional de Colombia (UNAL)</a>. Bogotá, Colombia.</li>
+          <li>2019 - 2020: <b>GIS Specialist</b> at <a target="_blank" rel="noopener" href="https://www.ideca.gov.co/">Spatial Data Infrastructure of Bogota (IDECA)</a>. Bogotá, Colombia.</li>
+          <li>2013 - 2017: <b>GIS Specialist</b> at <a target="_blank" rel="noopener" href="https://federaciondecafeteros.org/wp/?lang=en">Colombia coffee growers federation</a>. Bogotá, Colombia.</li>
+          <li>2016/02 - 2016/06: <b>University Lecturer</b> at <a target="_blank" rel="noopener" href="https://www.usergioarboleda.edu.co/">Universidad Sergio Arboleda</a>. Bogotá, Colombia.</li>
+          <li>2015 - 2016: <b>University Lecturer</b> at <a target="_blank" rel="noopener" href="https://www.umng.edu.co/inicio">Universidad Militar Nueva Granada (UMilitar)</a> and <a target="_blank" rel="noopener" href="https://www.udca.edu.co/">Universidad de Ciencias Aplicadas y Ambientales (UDCA)</a>. Bogotá, Colombia.</li>
         </ul>
       </div>
+    </section>
 
-      <div id="teaching" class="col-12">
-        <h2>Teaching</h2>
-          Before TUDelft all lectures were taugh in Spanish<br>
-          <p></p>
-          <ul>
-              <li><b>@ UNAL.</b> MSc Geomatics
-                  <ul>
-                      <li>GIS Programming (2020, 2019, 2018)</li>
-                      <li>Geoprocessing (2020)</li>
-                      <li>Spatial Databases (2020, 2019, 2018)</li>
-                      <li>Research Seminar II (2019)</li>
-                      <li>Remote Sensing (2019)</li>
-                      <li>General Geomatics (2019)</li>
-                  </ul>
-              </li>
-              <li><b>@ UNAL.</b> BSc in Agronomy
-                  <ul>
-                      <li>Basic Geomatics (2018, 2017)</li>
-                  </ul>
-              </li>
-              <li><b>@ UMilitar.</b> Posgraduate degree in Geomatics
-                  <ul>
-                      <li>Applied Geomatics Project (2016, 2015)</li>
-                      <li>Web Cartography (2016)</li>
-                  </ul>
-              </li>
-              <li><b>@ UDCA.</b> BSc in Geographic and Environmental Engineering
-                  <ul>
-                      <li>Geodesy (2016, 2015, 2014)</li>
-                      <li>Spatial Analysis (2016)</li>
-                  </ul>
-              </li>
-          </ul>
+    <section class="content-section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-lg-6">
+            <h2 class="section-heading">Teaching</h2>
+            <p class="section-lede">Before joining Delft University of Technology, all lectures were taught in Spanish.</p>
+            <ul class="plain-list">
+              <li><b>TU Delft, MSc Geomatics:</b> GEO5012 GIS and cartography; GEO5014 Geomatics as support for energy applications (2021 - 2025).</li>
+              <li><b>UNAL, MSc Geomatics:</b> GIS Programming, Geoprocessing, Spatial Databases, Research Seminar II, Remote Sensing, and General Geomatics.</li>
+              <li><b>UNAL, BSc Agronomy:</b> Basic Geomatics.</li>
+              <li><b>UMilitar, Postgraduate degree in Geomatics:</b> Applied Geomatics Project and Web Cartography.</li>
+              <li><b>UDCA, BSc Geographic and Environmental Engineering:</b> Geodesy and Spatial Analysis.</li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="section-heading">Affiliations and events</h2>
+            <ul class="plain-list">
+              <li>Since 2022: Secretary of the <a href="https://www.udms.net" target="_blank" rel="noopener">Urban Data Management Society</a> (UDMS).</li>
+              <li>2026/09: <a target="_blank" rel="noopener" href="https://conference.gate-ai.eu/ISPRS2026/index.html">21st 3DGeoInfo 2026</a>, Sofia, Bulgaria (Scientific Committee).</li>
+              <li>2026/09: <a target="_blank" rel="noopener" href="https://conference.gate-ai.eu/ISPRS2026/index.html">Smart Data and Smart Cities 2026</a>, Sofia, Bulgaria (Scientific Committee).</li>
+              <li>2026/04: <a target="_blank" rel="noopener" href="https://www.isprs2026toronto.com/">XXV ISPRS Congress</a>, Toronto, Canada (WG IV/9, Scientific Committee).</li>
+              <li>2025/09: <a target="_blank" rel="noopener" href="https://www.csis.u-tokyo.ac.jp/3d_geoinfo_sdsc_2025/overview.html">20th 3DGeoInfo 2025</a> and Smart Data and Smart Cities 2025, Tokyo, Japan (Scientific Committee).</li>
+              <li>2024/10: <a target="_blank" rel="noopener" href="https://www.isprs.org/tc4-symposium2024/index.html">ISPRS Technical Commission IV Midterm Symposium</a>, Perth, Australia (Scientific Committee).</li>
+              <li>2024/06: <a target="_blank" rel="noopener" href="https://tudelft3d.github.io/sdsc2024/">Smart Data and Smart Cities 2024</a>, Athens, Greece (Scientific Committee).</li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
 
-      </div>
-
+  <footer class="footer">
+    <div class="container">
+      <hr>
+      <p class="text-center muted credit"><small>
+        Last update July 2026<br>
+        The website's source code is <a href="https://github.com/calsgeo/my-website">here</a>.<br>
+        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.<br>
+        Except where otherwise noted, content on this site is released into the <a href="http://creativecommons.org/publicdomain/zero/1.0/">public domain (CC0)</a>. Any attribution is appreciated but it is not required.
+      </small></p>
     </div>
-  </div>
+  </footer>
 
-
-</div>
-
-<footer class="footer">
-  <div class="container">
-    <hr>
-		<p class="text-center muted credit"><small>
-
-      The website's source code is <a href="https://github.com/calsgeo/my-website">here</a>.<br />
-      Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> <br />
-			Except where otherwise noted, content on this site is released into the <a href="http://creativecommons.org/publicdomain/zero/1.0/">public domain (CC0)</a>. Any attribution is appreciated but it is not required.
-
-		</small></p>
-	</div>
-</footer>
-  <script>
-    const MAPTILER_KEY = 'zmioDfVkuJrVmFWzaefe';
-      const map = new maplibregl.Map({
-          style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${MAPTILER_KEY}`,
-          center: [4.370783675191193, 52.005555605837536],
-          zoom: 15.5,
-          pitch: 90,
-          bearing: 130,
-          container: 'map',
-          antialias: true
-      });
-
-      const marker = new maplibregl.Marker()
-            .setLngLat([4.36980920, 52.00566918])
-            .addTo(map);
-
-      map.on('load', () => {
-          const layers = map.getStyle().layers;
-
-          let labelLayerId;
-          for (let i = 0; i < layers.length; i++) {
-              if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
-                  labelLayerId = layers[i].id;
-                  break;
-              }
-          }
-
-          map.addSource('openmaptiles', {
-              url: `https://api.maptiler.com/tiles/v3/tiles.json?key=${MAPTILER_KEY}`,
-              type: 'vector',
-          });
-
-          map.addLayer(
-              {
-                  'id': '3d-buildings',
-                  'source': 'openmaptiles',
-                  'source-layer': 'building',
-                  'type': 'fill-extrusion',
-                  'minzoom': 15,
-                  'paint': {
-                      'fill-extrusion-color': [
-                          'interpolate',
-                          ['linear'],
-                          ['get', 'render_height'], 0, 'lightgray', 100, 'royalblue', 200, 'lightblue'
-                      ],
-                      'fill-extrusion-height': [
-                          'interpolate',
-                          ['linear'],
-                          ['zoom'],
-                          15,
-                          0,
-                          16,
-                          ['get', 'render_height']
-                      ],
-                      'fill-extrusion-base': ['case',
-                          ['>=', ['get', 'zoom'], 16],
-                          ['get', 'render_min_height'], 0
-                      ]
-                  }
-              },
-              labelLayerId
-          );
-      });
-  </script>
-
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
