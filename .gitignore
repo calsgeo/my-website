@@ -5,5 +5,6 @@ location.html
 # Local agent/specification tooling
 .codex/
 .opencode/
+openspec/
 .agents/skills/.openspec-target
 .agents/skills/openspec-*/
