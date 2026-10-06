@@ -7,6 +7,9 @@
   <meta name="description" content="A low-stress, colour-based presentation timer.">
   <meta name="author" content="Camilo León Sánchez">
   <title>Timer</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/onix-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/onix-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/onix-180.png">
   <style>
     :root {
       --bg: #10231f;
@@ -306,7 +309,7 @@
             <input id="customMinutes" type="number" inputmode="decimal" min="0.1" step="0.5" placeholder="Minutes">
             <button type="button" id="setCustom">Set</button>
           </div>
-          <p class="feedback" id="feedback" aria-live="polite">Choose a preset or set a custom start.</p>
+          <p class="feedback" id="feedback" aria-live="polite">Choose a preset or set a custom duration.</p>
         </div>
       </div>
     </section>
@@ -468,7 +471,7 @@
         running = false;
         stopTicker();
         startPause.textContent = "Start";
-        setDuration(value * minute, "Custom start set.");
+        setDuration(value * minute, "Custom duration set.");
       });
 
       customMinutes.addEventListener("keydown", (event) => {
