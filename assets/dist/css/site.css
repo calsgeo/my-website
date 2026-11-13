@@ -236,6 +236,53 @@ a:hover {
   text-align: center;
 }
 
+.personal-section {
+  background: var(--site-soft);
+}
+
+.personal-gallery {
+  margin-top: 1.25rem;
+}
+
+.personal-card {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--site-line);
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 32px rgba(24, 33, 43, 0.1);
+}
+
+.personal-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 1199;
+  object-fit: cover;
+}
+
+.personal-shared-card {
+  width: 100%;
+  max-width: 52rem;
+  height: auto;
+  margin-inline: auto;
+}
+
+.personal-shared-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.personal-card figcaption {
+  padding: 0.8rem 1rem;
+  color: var(--site-ink);
+  font-size: 1.1rem;
+  font-weight: 730;
+  text-align: center;
+}
+
 .page-main {
   padding: 2.7rem 0 3.5rem;
 }
